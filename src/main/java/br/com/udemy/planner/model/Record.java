@@ -12,7 +12,7 @@ public class Record {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    
+
     private long id;
     private String service;
     private String customer;
